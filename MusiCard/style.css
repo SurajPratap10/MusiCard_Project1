@@ -32,10 +32,23 @@ html {
     background-color: #f6f6f6;
     display: grid;
     place-items: center;
-    background: linear-gradient(rgb(7, 102, 170), rgb(77, 6, 110));
-    clip-path: square(20% at 70% 90%);
+       background: linear-gradient(-45deg, rgb(77 6 110),rgb(7 102 170), #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
      
-   
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}75%{
+      background-position: 100% 50%;
+    }
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 h1{
