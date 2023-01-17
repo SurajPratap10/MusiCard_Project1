@@ -1,6 +1,6 @@
 # MusiCard
 
-<h4>This is my Front-End Web Development Project - MusiCard.It has a very clean and aesthetic UI which enhances your overall music experience & it's fully responsive for mobile devices.</h4>
+<h4>Musicard is a music player app that has a very clean and aesthetic UI which enhances the user's overall music experience & it's fully responsive for mobile devices.</h4>
 
 
 ## Technolgies used:
